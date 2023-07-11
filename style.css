@@ -32,7 +32,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 3px solid red;
     padding: 0 20px 0 30px;
 }
 .title-hadding{
@@ -45,7 +44,7 @@
 }
 
 .header-img{
-    width: 525px;
+    width: 480px;
     
 }
     /* our featued section css cord is */
@@ -55,7 +54,6 @@
     height: 100vh;
     padding-top: 40px;
     background-color: #fff;
-    border: 2px solid red;
 }
 .our-featued-title{
     text-align: center;
@@ -75,7 +73,6 @@
     padding: 30px 10px;
     text-align: center;
     text-decoration: underline;
-    border: 3px solid red;
 }
 
 .Pink-Flower-Tree{
@@ -118,7 +115,7 @@
     text-align:  center;
     height: 200px;
     width: 1000px;
-    margin: 20px auto;
+    margin: 50px auto;
     padding: 30px 10px;
     background: rgba(39, 39, 39, 0.05);
 
@@ -126,6 +123,34 @@
 .icon-logo{
     margin-bottom: 20px;
 }
+
+    /* bonus section css cord is */
+
+.bonus-banner{
+    background-image: url("images/b2");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 400px;
+}
+.bonus-container{
+    margin: 20px 10px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bonus-img{
+    width: 300px;
+    height: 350px;
+}
+.bonus-img:hover{
+    box-shadow: 10px 10px 20px black;
+    
+}
+
+
     /* hot deal section css cord is */
 
 .hot-deal-container{
@@ -139,10 +164,12 @@
     align-items: center;
     text-align: center;
 }
-.hot-deal-hadding, .instagram-hadding{
+ .prm-hadding{
     font-size: 35px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
+
+    /* instagram section css cord is  */
 .Instagram-container{
     margin-top: 40px;
     text-align: center;
@@ -157,9 +184,52 @@
     margin: 20px auto;
     padding: 30px 10px;
     align-items: center;
-    border: 3px solid red;
 }
 .instagram-img{
     width: 220px;
 }
+.instagram-img:hover{
+     box-shadow: 10px 10px 20px black;
+    
+}
+ /* input section css cord is */
+.input-container{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;  
+}
 
+.input-img{
+    background-image: url("images/Rectangle\ 9.png");
+    height: 100%;
+    text-align: center;
+    /* padding-top:50px ; */
+}
+
+.input-logo{
+    padding: 100px;
+}
+
+#input-email{
+    width: 400px;
+    height: 40px;
+    padding: 3px 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+.footer-container{
+    height: 250px;
+    background-color: black;
+    margin-top: 50px;
+    
+    
+}
+.footer-title{
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
