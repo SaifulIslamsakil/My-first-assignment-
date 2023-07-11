@@ -17,6 +17,7 @@
     margin-top: 20px;
     border: none;
     font-weight: 900;
+    border-radius: 8px;
 }
 
 .prm-btn:hover{
@@ -47,11 +48,14 @@
     width: 525px;
     
 }
+    /* our featued section css cord is */
+
 .our-featued-container{
     width: 100%;
     height: 100vh;
     padding-top: 40px;
-    margin-top: 30px;
+    background-color: #fff;
+    border: 2px solid red;
 }
 .our-featued-title{
     text-align: center;
@@ -62,16 +66,16 @@
     font-size: 30px;
 }
 
-.our-featued-logo{
+.our-featued-logo {
     display: flex;
     justify-content: space-around;
     height: 400px;
-    /* background: #8c8584; */
     width: 1000px;
     margin: 20px auto;
     padding: 30px 10px;
     text-align: center;
     text-decoration: underline;
+    border: 3px solid red;
 }
 
 .Pink-Flower-Tree{
@@ -81,7 +85,7 @@
     background: rgba(5, 151, 160, 0.15);
     background-image: url("images/pngwing\ 5.png");
     margin:  20px;
-    /* padding: 20; */
+    
     
 }
 .Pink-Flower-Tree1{
@@ -91,7 +95,7 @@
     background:rgba(167, 33, 98, 0.15);
     background-image: url("images/pngwing\ 6.png");
     margin:  20px;
-    /* padding: 20; */
+   
     
 }
 .Pink-Flower-Tree2{
@@ -101,16 +105,61 @@
     background: rgba(71, 125, 17, 0.15);
     background-image: url("images/pngwing\ 7.png");
     margin:  20px;
-    /* padding: 20; */
+   
     
 }
 
-/* .Pink-flower-img{
-    margin: 0 auto;
-    width: 250px;
-    height: 350px;
-    background-image: url("images/pngwing\ 6.png");
-    background-position: center bottom;
+/* our featued icon section css cord is */
+
+.our-featued-icon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align:  center;
+    height: 200px;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 30px 10px;
+    background: rgba(39, 39, 39, 0.05);
+
 }
-      */
+.icon-logo{
+    margin-bottom: 20px;
+}
+    /* hot deal section css cord is */
+
+.hot-deal-container{
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.hot-deal-hadding, .instagram-hadding{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.Instagram-container{
+    margin-top: 40px;
+    text-align: center;
+}
+.instagram-logo-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align:  center;
+    height: 300px;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 30px 10px;
+    align-items: center;
+    border: 3px solid red;
+}
+.instagram-img{
+    width: 220px;
+}
 
